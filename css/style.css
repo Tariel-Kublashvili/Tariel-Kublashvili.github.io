@@ -1,0 +1,168 @@
+.topnav {
+  overflow: hidden;
+  position: relative;
+}
+
+.topnav #myLinks {
+  display: none;
+}
+
+.topnav a {
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 40px;
+  display: block;
+}
+
+.topnav a.icon {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.div-container{
+  display: flex;
+}
+.div1{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: #fff;
+  box-shadow: 0 0 10px gray;
+  border-radius: 30px;
+  margin: 70px;
+}
+.active {
+  background-color: #FF4363;
+  color: white;
+  margin-left: 50px;
+  font-family: 'Poppins', sans-serif;
+}
+header{
+  background-color: #FF4363;
+}
+.container{
+  display: flex;
+  align-items: center;
+}
+
+.section{
+  position: relative;
+  background-color: #FF4363;
+  padding-bottom: 5px;
+}
+.custom-shape-divider-bottom-1627152936 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1627152936 svg {
+    position: relative;
+    display: block;
+    width: calc(126% + 1.3px);
+    height: 78px;
+    transform: rotateY(180deg);
+}
+
+.custom-shape-divider-bottom-1627152936 .shape-fill {
+    fill: #FFFFFF;
+}
+h1{
+  margin-left: 50px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 82px;
+  color: white;
+}
+h2{
+  color: white;
+  font-size: 30px;
+  font-family: 'Poppins', sans-serif;
+  margin: 0 80px;
+}
+p{
+  margin: 50px 50px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 18px;
+  color: white; 
+}
+h3{
+  font-size: 26px;
+  font-family: 'Poppins', sans-serif;
+  margin: 20px 0 0 0;
+}
+.p{
+  color: #666666;
+  font-size: 16px;
+}
+.h1{
+  color: #000;
+  font-size: 60px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+}
+
+.img{
+  margin-top: 50px;
+}
+.download-button{
+  background-color: #fff;
+  color: #FF4363;
+  padding: 15px;
+  margin: 0 50px;
+  border-radius: 30px;
+  font-weight: bold;
+}
+.video-button{
+  font-weight: bold;
+}
+.img5{
+  margin: 40px;
+}
+.icon{
+  margin: 0 0 25px 50px;
+}
+li{
+  margin-left: 50px;
+  font-size: 18px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 600;
+}
+ul{
+  list-style: none;
+}
+ul li::before {
+  content: "\2022";
+  color: #FF7588;
+  display: inline-block;
+  width: 20px;
+  font-size: 2em;
+  vertical-align: middle;
+}
+.learn-more-button{
+  display: inline-block;
+  background-color: #FF4363;
+  padding: 20px;
+  border-radius: 30px;
+  margin: 50px;
+  font-weight: bold;
+  font-size: 24px;
+}
+a{
+  color: white;
+  margin-left: 15px;
+  font-family: 'Roboto', sans-serif;
+}
+footer{
+  background-color: black;
+}
+.div-footer{
+  display: flex;
+  align-items: center;
+  justify-content:center;
+}
